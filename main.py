@@ -118,7 +118,7 @@ def greet_handler(msg):
 if __name__ == "__main__":
     
     bot.remove_webhook()
-    bot.set_webhook(url=f'https://mamajo-try-bot.osc-fr1.scalingo.io/webhook')
+    bot.set_webhook(url=f'https://sripanticempe-bot.osc-fr1.scalingo.io/webhook')
     
     app.run(
         host="0.0.0.0",
